@@ -113,7 +113,7 @@ if __name__ == "__main__":
             stMsgs = ['Just doing my thing!', 'I am fine!', 'Nice!', 'I am nice and full of energy','i am okey ! How are you']
             ans_q = random.choice(stMsgs)
             speak(ans_q)  
-            ans_take_from_user_how_are_you = takecomm()
+            ans_take_from_user_how_are_you = takecom()
             if 'fine' in ans_take_from_user_how_are_you or 'happy' in ans_take_from_user_how_are_you or 'okey' in ans_take_from_user_how_are_you:
                 speak('okey..')  
             elif 'not' in ans_take_from_user_how_are_you or 'sad' in ans_take_from_user_how_are_you or 'upset' in ans_take_from_user_how_are_you:
